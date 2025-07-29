@@ -4,6 +4,8 @@ import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
+import Insta_logo from '../../assets/Insta_logo.png'
+import Github_logo from '../../assets/Github_logo.png'
 
 const Contact = () => {
 
@@ -44,13 +46,19 @@ const Contact = () => {
                 <p>I'm currently available to take on exciting new projects, so if you have an idea in mind or need someone to bring your vision to life, feel free to reach out at any time—I'd love to hear from you!</p>
                 <div className="contact-details">
                     <div className="contact-detail">
-                        <img src={mail_icon} alt="" /><p>mrabhi670@gmail.com</p>
+                        <img src={mail_icon} alt="" /><p><a href="mailto:mrabhi670@gmail.com">mrabhi670@gmail.com</a></p>
                     </div>
                     <div className="contact-detail">
                         <img src={call_icon} alt="" /><p>+91 9148314969</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={location_icon} alt="" /><p>India, Karnataka</p>
+                        <img src={Insta_logo} alt="" height={38} width={35} /><p><a href="https://www.instagram.com/mr_abhi_698/">mr_abhi_698</a></p>
+                    </div>
+                    <div className="contact-detail">
+                        <img src={Github_logo} alt="" height={45} width={45} /><p><a href="https://github.com/MrAbhi698">MrAbhi698</a></p>
+                    </div>
+                    <div className="contact-detail">
+                        <img src={location_icon} alt="" /><p>Karnataka, India</p>
                     </div>
                 </div>
             </div>
