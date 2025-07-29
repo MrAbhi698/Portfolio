@@ -61,6 +61,10 @@
     align-items: start;
     gap: 30px;
 }
+a{
+    text-decoration: none;
+    color: #D8D8D8;
+}
 .contact-right label{
     color: #D8D8D8;
     font-size: 22px;
@@ -114,7 +118,7 @@
         font-weight: 600;
     }
     .contact-title img{
-        width: 130px;
+        width: 100px;
         margin-right: -20px;
     }
     .contact-section{
