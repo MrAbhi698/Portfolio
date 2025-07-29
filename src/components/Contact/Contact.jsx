@@ -44,13 +44,13 @@ const Contact = () => {
                 <p>I'm currently available to take on exciting new projects, so if you have an idea in mind or need someone to bring your vision to life, feel free to reach out at any time—I'd love to hear from you!</p>
                 <div className="contact-details">
                     <div className="contact-detail">
-                        <img src={mail_icon} alt="" /><p>mrabhi670@gmail.com</p>
+                        <img src={mail_icon} alt="" /><p><a href="mailto:mrabhi670@gmail.com">mrabhi670@gmail.com</a></p>
                     </div>
                     <div className="contact-detail">
                         <img src={call_icon} alt="" /><p>+91 9148314969</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={location_icon} alt="" /><p>India, Karnataka</p>
+                        <img src={location_icon} alt="" /><p>Karnataka, India</p>
                     </div>
                 </div>
             </div>
