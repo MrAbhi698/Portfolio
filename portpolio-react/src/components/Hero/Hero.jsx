@@ -11,7 +11,8 @@ const Hero = () => {
         <p>I am a frontend developer from Karnataka, India</p>
         <div className="hero-action">
             <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
-            <div className="hero-resume">My Resume</div>
+            <div className="hero-resume"><a href="/Abhi_Resume.pdf" download="Abhi_Resume.pdf" style={{ textDecoration: 'none', color: 'inherit' }}>
+            My Resume</a></div>
         </div>
     </div>
   )
